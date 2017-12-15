@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body, html {
+    margin: 0;   
+}
+.fullscreen {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#title {
+    font-size: 75;
+}
+.loading {
+    font-size: 50;
+}
+.center {
+    text-align: center;
+}
+#outLoad {
+    width: 60%;
+    height: 4vh;
+    background-color: #ffffff;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+#inLoad {
+    width: 10%;
+    height: 100%;
+    background-color: green;
+    border-radius: 4px;
+}
+#loadScreen {
+    background: linear-gradient( rgb(0,200,200), rgb(0,0,200) );
+    height: 100%;
+    width: 100%;
+}
+#afterLoad {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url(Sierra.jpg);
+    background-size: 121.1%;
+}
+#background {
+    width: 100%;
+    height: 100;
+}
+#settingsIcon {
+    width: 100%;
+    height: auto;
+}
+#mailIcon {
+    width: 100%;
+    height: auto;
+}
+#browserIcon {
+    width: 100%;
+    height: auto;
+}
+#bar {
+    height: 100%;
+    width: 10%;
+    background-color: gray;
+}
+#hidden {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#browserDiv {
+    display: none;
+    width: 70%;
+    height: 63%;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+#browser {
+    width: 100%;
+    height: 90%;
+}
+#textEditor {
+    display: none;
+    width: 100%;
+    height: 90%;
+}
