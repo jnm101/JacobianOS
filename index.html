@@ -1,0 +1,35 @@
+    <html>
+    <head>
+        <link href = 'https://fonts.googleapis.com/css?family=Roboto' rel = 'stylesheet'>
+        <link href = 'style.css' rel = 'stylesheet'>
+        <script src = 'script.js'></script>
+    </head>
+    <body>
+        <div id = 'hidden'><iframe src = ''></iframe></div>
+        <div id = 'afterLoad'>
+            <div id = 'textEditor'><input id = 'text'></div>
+            <div id = 'browserDiv'>
+                <input id = 'search'>
+                <button id = 'searchButton' onclick = 'search()'>Go</button>
+                <br>
+                <iframe id = 'browser'></iframe>
+            </div>
+            
+            <div id = 'bar'>
+                <button id = 'settingsButton' onclick = 'openSettings()'><img id = 'settingsIcon' src = 'settings.png'></button>
+                <button id = 'mailButton' onclick = 'openMail()'><img id = 'mailIcon' src = 'mailicon.png'></button>
+                <button id = 'browserButton' onclick = 'openBrowser()'><img id = 'browserIcon' src = '0001.png'></button>
+                <button id = 'textEditorButton' onclick = 'openTextEditor()'><img id = 'textEditorIcon' src = ''></button>
+            </div>
+            
+        </div>
+        <div class = 'center' id = 'loadScreen'>
+            <h1 id = 'title'>Jacobian OS 1.0.0</h1>
+            <br>
+            <h1 class = 'loading'>Loading Please Wait</h1>
+            <div id='outLoad'>
+                <div id = 'inLoad'></div>
+            </div>
+        </div>
+    </body>
+</html>
